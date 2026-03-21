@@ -1,0 +1,13 @@
+{
+  "name": "spec-interview",
+  "description": "Conducts a multi-round interview to refine a rough SPEC.md into a complete, implementation-ready specification with tasks and post-implementation review",
+  "version": "1.0.0",
+  "author": {
+    "name": "Leandro Zubrezki"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leandrozubrezki/spec-interview"
+  },
+  "license": "MIT"
+}
