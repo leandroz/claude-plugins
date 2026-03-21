@@ -1,4 +1,10 @@
-# spec-interview
+# Spec Interview Skill
+
+Inspired from Thariq's tweet
+
+https://x.com/trq212/status/2005315275026260309?s=20
+
+<img width="1360" height="592" alt="image" src="https://github.com/user-attachments/assets/ea111427-7f60-419a-9a3d-fec1536ddebf" />
 
 A Claude Code plugin that conducts a multi-round interview to refine a rough `SPEC.md` into a complete, implementation-ready specification.
 
