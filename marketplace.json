@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "spec-interview",
-      "source": ".",
+      "source": "./spec-interview",
       "description": "Multi-round interview to refine a rough SPEC.md into a complete, implementation-ready specification with tasks",
       "version": "1.0.0"
     }
