@@ -1,0 +1,16 @@
+{
+  "name": "leandroz",
+  "description": "Claude Code plugins by Leandro Zubrezki",
+  "owner": {
+    "name": "Leandro Zubrezki",
+    "url": "https://github.com/leandroz"
+  },
+  "plugins": [
+    {
+      "name": "spec-interview",
+      "source": ".",
+      "description": "Multi-round interview to refine a rough SPEC.md into a complete, implementation-ready specification with tasks",
+      "version": "1.0.0"
+    }
+  ]
+}
