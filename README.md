@@ -18,8 +18,7 @@ A multi-round interview skill that refines a rough `SPEC.md` into a complete, im
 4. Creates an ordered task list with dependencies for implementation
 5. After implementation, runs verification, code review, and simplification passes
 
-<!-- TODO: Add screenshot of final result -->
-<!-- ![Final result after interview](assets/result-screenshot.png) -->
+![2026-02-25 15 30 18](https://github.com/user-attachments/assets/db21fd2f-4237-4cfb-97f0-c9887fa57335)
 
 ## Installation
 
