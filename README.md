@@ -20,6 +20,17 @@ A multi-round interview skill that refines a rough `SPEC.md` into a complete, im
 
 ![2026-02-25 15 30 18](https://github.com/user-attachments/assets/db21fd2f-4237-4cfb-97f0-c9887fa57335)
 
+### idea-storm-x4
+
+A structured brainstorming skill that generates 50 high-quality ideas using 4 parallel agents that debate and converge across 3 rounds.
+
+**What it does:**
+
+1. Launches 4 parallel agents, each generating 50 ideas from a different angle (Growth, Monetization, Community/UX, Content/Data)
+2. Runs 2 semifinal debate agents that filter 200 ideas down to 100
+3. Runs a final debate agent that merges duplicates and selects the top 50
+4. Presents the curated list for you to pick winners
+
 ## Installation
 
 **Step 1** — Add the marketplace:

@@ -11,6 +11,12 @@
       "source": "./spec-interview",
       "description": "Multi-round interview to refine a rough SPEC.md into a complete, implementation-ready specification with tasks",
       "version": "1.0.0"
+    },
+    {
+      "name": "idea-storm-x4",
+      "source": "./idea-storm-x4",
+      "description": "Generate 50 filtered ideas using 4 parallel agents that debate and converge across 3 rounds",
+      "version": "1.0.0"
     }
   ]
 }
