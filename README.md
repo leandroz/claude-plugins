@@ -56,10 +56,12 @@ A diagnostic skill that analyzes your Claude Code session data to surface usage 
 /plugin marketplace add leandroz/claude-plugins
 ```
 
-**Step 2** — Install the plugin:
+**Step 2** — Install a plugin:
 
 ```
 /plugin install spec-interview@leandroz
+/plugin install idea-storm-x4@leandroz
+/plugin install session-stats@leandroz
 ```
 
 ### Local development
