@@ -31,6 +31,23 @@ A structured brainstorming skill that generates 50 high-quality ideas using 4 pa
 3. Runs a final debate agent that merges duplicates and selects the top 50
 4. Presents the curated list for you to pick winners
 
+### session-stats
+
+A diagnostic skill that analyzes your Claude Code session data to surface usage patterns and help debug context limit issues.
+
+**What it does:**
+
+1. Parses all session files from `~/.claude/projects/`
+2. Reports total tokens, messages, tool uses, and duration across all sessions
+3. Ranks projects by token consumption
+4. Flags heaviest sessions most likely to hit context limits
+5. Lists longest sessions and recent activity
+6. Suggests optimizations (when to `/compact`, use subagents, or break sessions)
+
+```
+/session-stats
+```
+
 ## Installation
 
 **Step 1** — Add the marketplace:
