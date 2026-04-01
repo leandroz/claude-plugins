@@ -20,6 +20,13 @@ A multi-round interview skill that refines a rough `SPEC.md` into a complete, im
 
 ![2026-02-25 15 30 18](https://github.com/user-attachments/assets/db21fd2f-4237-4cfb-97f0-c9887fa57335)
 
+**Usage:**
+
+1. Create a `SPEC.md` file in your project root with your rough idea or draft spec
+2. Run `/spec-interview:spec-interview`
+
+Or just describe what you want to build and Claude will invoke it automatically when it detects a `SPEC.md` in your project.
+
 ### idea-storm-x4
 
 A structured brainstorming skill that generates 50 high-quality ideas using 4 parallel agents that debate and converge across 3 rounds.
@@ -30,6 +37,12 @@ A structured brainstorming skill that generates 50 high-quality ideas using 4 pa
 2. Runs 2 semifinal debate agents that filter 200 ideas down to 100
 3. Runs a final debate agent that merges duplicates and selects the top 50
 4. Presents the curated list for you to pick winners
+
+**Usage:**
+
+```
+/idea-storm-x4:idea-storm-x4
+```
 
 ### session-stats
 
@@ -44,8 +57,10 @@ A diagnostic skill that analyzes your Claude Code session data to surface usage 
 5. Lists longest sessions and recent activity
 6. Suggests optimizations (when to `/compact`, use subagents, or break sessions)
 
+**Usage:**
+
 ```
-/session-stats
+/session-stats:session-stats
 ```
 
 ## Installation
@@ -69,17 +84,6 @@ A diagnostic skill that analyzes your Claude Code session data to surface usage 
 ```bash
 claude --plugin-dir ./claude-plugins
 ```
-
-## Usage
-
-1. Create a `SPEC.md` file in your project root with your rough idea or draft spec
-2. Run the skill:
-
-```
-/spec-interview:spec-interview
-```
-
-Or just describe what you want to build and Claude will invoke it automatically when it detects a `SPEC.md` in your project.
 
 ## Requirements
 
