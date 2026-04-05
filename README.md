@@ -63,6 +63,29 @@ A diagnostic skill that analyzes your Claude Code session data to surface usage 
 /session-stats:session-stats
 ```
 
+### cold-email
+
+A cold email drafting skill based on Andy's "The art of cold-emailing a billionaire" framework, tested to achieve 100% pass rate on 8 quality assertions across 3 email types.
+
+**What it does:**
+
+1. Guides you through identifying the win-win trade before writing anything
+2. Helps research the recipient to understand what they actually value
+3. Drafts a concise email (under 150 words) applying 4 principles:
+   - **Competency** — compressed proof of credibility in 1-2 sentences
+   - **Ask** — specific request + clear value to the recipient
+   - **Transparency** — honest about your self-interest and motivation
+   - **Extra effort** — references something concrete you already created beyond the email
+4. Reviews and cuts ruthlessly to keep it tight
+
+**Usage:**
+
+```
+/cold-email:cold-email
+```
+
+Or just ask Claude to help you write a cold email — it will invoke the skill automatically.
+
 ## Installation
 
 **Step 1** — Add the marketplace:
@@ -77,6 +100,7 @@ A diagnostic skill that analyzes your Claude Code session data to surface usage 
 /plugin install spec-interview@leandroz
 /plugin install idea-storm-x4@leandroz
 /plugin install session-stats@leandroz
+/plugin install cold-email@leandroz
 ```
 
 ### Local development

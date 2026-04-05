@@ -17,6 +17,12 @@
       "source": "./idea-storm-x4",
       "description": "Generate 50 filtered ideas using 4 parallel agents that debate and converge across 3 rounds",
       "version": "1.0.0"
+    },
+    {
+      "name": "cold-email",
+      "source": "./cold-email",
+      "description": "Draft high-response-rate cold emails to influential people using the 4-principle framework (competency, ask, transparency, effort)",
+      "version": "1.0.0"
     }
   ]
 }
